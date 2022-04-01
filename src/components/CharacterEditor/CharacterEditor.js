@@ -30,7 +30,8 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
-      <MaxWidthWrapper className={styles.maxWidthWrapper}>
+      <div className={styles.perspective}></div>
+      <MaxWidthWrapper className={styles.maxWidthWrapper} style={{isolation: 'isolate'}}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>
           <p className={styles.description}>

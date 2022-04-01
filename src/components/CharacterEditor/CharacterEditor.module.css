@@ -6,8 +6,17 @@
 .maxWidthWrapper {
 }
 
+.perspective {
+  position: fixed;
+  height: 40vh;
+  bottom: 0;
+  background-color: hsl(195deg, 20%, 86%);
+  width: 100%;
+}
+
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -24,7 +33,13 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  top: 64px;
+  right: 0;
+  min-height: 500px;
+  width: 35%;
 }
 
 .controlColumn {
+  max-width: 50%;
 }
